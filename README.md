@@ -1,4 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raviteja Suragali - Power BI Developer / Data Analyst</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden; /* Prevent scrolling */
+        }
 
+        /* Main container for Vanta background */
+        .s-page-1 {
+            position: relative;
+            height: 100vh; /* Full viewport height */
+            overflow: hidden; /* Hide overflow */
+        }
+
+        .s-section {
+            position: relative;
+            z-index: 1; /* Ensure this content is above the Vanta background */
+            color: white; /* Change text color for visibility */
+            padding: 20px; /* Add some padding */
+        }
+
+        /* Add additional styles for your sections */
+        h2 {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: left;
+            padding: 10px 20px;
+            background: none;
+            color: white; /* Change footer text color */
+        }
+    </style>
+</head>
+<body>
+    <div class="s-page-1">
+        <div class="s-section">
+            <header>
+                <h1>Raviteja Suragali</h1>
+                <p>Power BI Developer / Data Analyst</p>
+                <p>07435386364 | Rt.suragali@gmail.com</p>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="#profile" style="color: white;">Profile</a></li>
+                    <li><a href="#experience" style="color: white;">Experience</a></li>
+                    <li><a href="#projects" style="color: white;">Projects</a></li>
+                    <li><a href="#education" style="color: white;">Education</a></li>
+                    <li><a href="#skills" style="color: white;">Skills</a></li>
+                    <li><a href="#certifications" style="color: white;">Certifications</a></li>
+                    <li><a href="#awards" style="color: white;">Awards</a></li>
+                </ul>
+            </nav>
+            <section id="profile">
+                <h2>Profile</h2>
+                <p>Passionate Power BI developer and Data Analyst...</p>
+                <!-- Add your content here -->
+            </section>
+            <!-- Add other sections similarly -->
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Raviteja Suragali</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+    <script>
+        var setVanta = () => {
+            if (window.VANTA) window.VANTA.NET({
+                el: ".s-page-1", // Target the main page div for the Vanta effect
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                scale: 1.00,
+                scaleMobile: 1.00
+            });
+        }
+        
+        // Call the setVanta function to initialize the effect
+        setVanta();
+        
+        // If you're using any framework or specific event system, you can subscribe like this:
+        // window.edit_page.Event.subscribe("Page.beforeNewOneFadeIn", setVanta);
+    </script>
+</body>
+</html>
 <html>
 <html lang="en">
 <head>
