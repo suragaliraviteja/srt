@@ -1,16 +1,17 @@
-
+<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raviteja Suragali - Power BI Developer / Data Analyst</title>
+    <title>RAVITEJA SURAGALI - Power BI Developer / Data Analyst</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #4CAF50, #8BC34A); /* Gradient background */
+            background: linear-gradient(to right, #ADD8E6, #ADD8e6); /* Gradient background */
             color: #333; /* Set default text color */
         }
         header {
