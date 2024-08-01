@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html>
 <html lang="en">
 <head>
@@ -17,7 +17,7 @@
         }
         header {
             background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
-            color: #4CAF50;
+            color: #141714;
             text-align: center;
             padding: 1em 0;
         }
