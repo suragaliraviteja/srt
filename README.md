@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -87,7 +87,7 @@
                     <li>Interacted with business users to understand their needs and enhanced existing performance reports and translated them into actionable insights.</li>
                     <li>Improved data modelling and queries improved the performance of Power BI reports, accelerating report generation and enhancing the user experience.</li>
                     <li>Conducted performance tuning exercises to identify and address challenges in data acquisition and visualization processes.</li>
-                    <li>Data was imported into Power BI from multiple data sources including databases, spreadsheets and cloud-based platforms to create a comprehensive and unified business view.</li>
+                    <li>Data was imported into Power BI from multiple data sources including databases, spreadsheets, and cloud-based platforms to create a comprehensive and unified business view.</li>
                 </ul>
                 <h3>Data Analyst - Google, India</h3>
                 <ul>
@@ -98,7 +98,7 @@
                     <li>Demonstrated proven analytics skills and visualization to support business decisions.</li>
                     <li>Updated policies and procedures for advertising methods to comply with current best practices and quality requirements.</li>
                     <li>Collaborated closely with engineers, account managers, and product managers to understand business objectives and convert them into insights.</li>
-                    <li>Wrote technical documents including questionnaires, reports and comments to effectively communicate findings and recommendations.</li>
+                    <li>Wrote technical documents including questionnaires, reports, and comments to effectively communicate findings and recommendations.</li>
                 </ul>
                 <h3>Senior Quality Analyst - Wipro, India</h3>
                 <ul>
