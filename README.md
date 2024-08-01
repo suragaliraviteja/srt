@@ -10,10 +10,12 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background: linear-gradient(to right, #4CAF50, #8BC34A); /* Gradient background */
+            color: #333; /* Set default text color */
         }
         header {
-            background-color: #4CAF50;
-            color: white;
+            background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white */
+            color: #4CAF50;
             text-align: center;
             padding: 1em 0;
         }
@@ -38,25 +40,26 @@
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
-            padding-bottom: 100px; /* To make space for the fixed footer */
+            padding-bottom: 50px; /* To make space for the fixed footer */
         }
         section {
             padding: 2em 0;
             border-bottom: 1px solid #ddd;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for sections */
         }
         section h2 {
             color: #333;
             margin-bottom: 0.5em;
         }
         footer {
-            color: black;
-            text-align: left;
-            padding: 1em 0;
             position: fixed;
-            width: 100%;
             bottom: 0;
+            left: 0;
+            width: 100%;
+            text-align: left;
+            padding: 10px 20px;
             background: none;
-            padding-left: 20px;
+            color: black;
         }
         .contact-btn {
             display: inline-block;
@@ -115,10 +118,10 @@
                 <li>Developed plans together with cross-functional teams to improve campaign performance and fulfil advertising goals.</li>
                 <li>Demonstrated proven analytics skills , and visualization to support business decisions.</li>
                 <li>Updated policies and procedures for advertising methods to comply with current best practices and quality requirements.</li>
-                <li>Collaborated closely with engineers, account managers, and product managers to understand business objectives and convert them into  insights</li>
+                <li>Collaborated closely with engineers, account managers, and product managers to understand business objectives and convert them into insights.</li>
                 <li>Wrote technical documents including questionnaires, reports and comments to effectively communicate findings and recommendations.</li>
             </ul>
-            <h3>Senior Quality Analyst -  Wipro, India</h3>
+            <h3>Senior Quality Analyst - Wipro, India</h3>
             <p>July 2019 – September 2020</p>
             <ul>
                 <li>Managed multiple Google AdWords accounts with budgets ranging from $10,000 to $100,000 per month.</li>
