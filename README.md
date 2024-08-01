@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,8 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: gray; /* Set background to gray */
+            background: linear-gradient(to right, ##FFFFFF
+, #FFFFFF); /* Gradient background */
             color: #333; /* Set default text color */
         }
         header {
@@ -38,11 +39,9 @@
         }
 
         .container h2 {
-            text-align: center; /* Center the text */
-            margin-bottom: 1em; /* Space below the heading */
-            color: #D2B48C; /* Set heading color to light brown */
-        }
-
+    text-align: center; /* Center the text */
+    margin-bottom: 1em; /* Space below the heading */
+}
         .container {
             width: 80%;
             margin: 0 auto;
@@ -55,7 +54,7 @@
             background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent white for sections */
         }
         section h2 {
-            color: #D2B48C; /* Set section heading color to light brown */
+            color: #333;
             margin-bottom: 0.5em;
         }
         footer {
@@ -102,7 +101,7 @@
     <div class="container">
         <section id="profile">
             <h2>Profile</h2>
-            <p>Passionate Power BI developer and Data Analyst. Highly motivated and growth oriented professional with a strong passion for continuous learning. Hands-on experience in Power BI, specializing in developing robust data models and proficiently managing ETL processes. Skilled in translating complex data into actionable insights to drive informed decision-making. Completed a master's degree in Data Science where I gained hands-on experience through academic projects.</p>
+            <p>Passionate Power BI developer and Data Analyst. Highly motivated and growth oriented professional with a strong passion for continuous learning. Hands on experience in Power BI, specializing in developing robust data models and proficiently managing ETL processes. Skilled in translating complex data into actionable insights to drive informed decision-making. Completed a master degree in Data Science where I gained hands-on experience through academic projects.</p>
         </section>
         <section id="experience">
             <h2>Professional Experience</h2>
@@ -114,7 +113,7 @@
                 <li>Interacted with business users to understand their needs and enhanced existing performance reports and translated them into actionable insights.</li>
                 <li>Improved data modelling and queries improved the performance of Power BI reports, accelerating report generation and enhancing the user experience.</li>
                 <li>Conducted performance tuning exercises to identify and address challenges in data acquisition and visualization processes.</li>
-                <li>Data was imported into Power BI from multiple data sources including databases, spreadsheets, and cloud-based platforms to create a comprehensive and unified business view.</li>
+                <li>Data was imported into Power BI from multiple data sources including databases, spreadsheets and cloud-based platforms to create a comprehensive and unified business view.</li>
             </ul>
             <h3>Data Analyst - Google, India</h3>
             <p>September 2020 – September 2021</p>
@@ -123,16 +122,16 @@
                 <li>Created and maintained rich interactive visuals that integrate reporting components from multiple data sources for comprehensive data interpretation and analysis.</li>
                 <li>Campaign data was thoroughly analysed to identify trends and areas for improvement, which resulted in improved optimisation strategies.</li>
                 <li>Developed plans together with cross-functional teams to improve campaign performance and fulfil advertising goals.</li>
-                <li>Demonstrated proven analytics skills, and visualization to support business decisions.</li>
+                <li>Demonstrated proven analytics skills , and visualization to support business decisions.</li>
                 <li>Updated policies and procedures for advertising methods to comply with current best practices and quality requirements.</li>
                 <li>Collaborated closely with engineers, account managers, and product managers to understand business objectives and convert them into insights.</li>
-                <li>Wrote technical documents including questionnaires, reports, and comments to effectively communicate findings and recommendations.</li>
+                <li>Wrote technical documents including questionnaires, reports and comments to effectively communicate findings and recommendations.</li>
             </ul>
             <h3>Senior Quality Analyst - Wipro, India</h3>
             <p>July 2019 – September 2020</p>
             <ul>
                 <li>Managed multiple Google AdWords accounts with budgets ranging from $10,000 to $100,000 per month.</li>
-                <li>Created Google Data Studio custom reports that relayed information on campaign performance to stakeholders.</li>
+                <li>Created Google data studio custom reports that relayed information on campaign performance to stakeholders.</li>
                 <li>Addressed quality-related issues together with account managers and advertisers for timely resolution.</li>
                 <li>Contribution in the creation of quality assurance processes and procedures.</li>
             </ul>
@@ -141,24 +140,24 @@
             <ul>
                 <li>Data was analysed and modelled to improve Google Maps experience.</li>
                 <li>Enhance route planning and forecast real-time traffic.</li>
-                <li>Worked in the Apple Points of Interest (POI) project to better the accuracy and completeness of POI data.</li>
-                <li>I worked with cross-functional teams in identifying and resolving data issues.</li>
+                <li>Worked in the Apple Points of interest (POI) project to better the accuracy and completeness of POI data.</li>
+                <li>I worked with cross functional teams in identifying and resolving data issues.</li>
             </ul>
         </section>
         <section id="projects">
             <h2>Academic Projects</h2>
             <h3>Predicting Customer Loss In Credit Card Companies Using ML, R and Power BI</h3>
             <ul>
-                <li>Data variables for this project are merged using SQLite platform queries and taken from open source. Using well-prepared R scripts, the data is further analysed using the R Platform. The data will be analysed for any missing information, and Kolmogorov-Smirnov and Shapiro tests are used to determine the data's normality.</li>
-                <li>Between the dependent variable and each of the socioeconomic variables, correlation tests, including internal and partial correlation and factor analysis, will be run in order to remove independent variables with very weak correlation coefficients, identify those with high internal correlation, and discover underlying dimensions.</li>
-                <li>The number of helpful variables in each dimension will be retrieved from the screeplot, and Eigenvalues will be computed to estimate the amount of variation explained in each dimension.</li>
+                <li>Data variables for this project are merged using SQLite platform queries and taken from open source. Using well prepared R scripts, the data is further analysed using the R Platform. The data will be analysed for any missing information, and Kolmogorov-Smirnov and Shapiro tests are used to determine the data's normality.</li>
+                <li>Between the dependent variable and each of the socioeconomic variables, correlation tests, including internal and partial correlation and factor analysis, will be run in order to remove independent variables with very weak correlation co-efficient, identify those with high internal correlation, and discover underlying dimensions.</li>
+                <li>The number of helpful variables in each dimension will be retrieved from the screeplot, and Eigen values will be computed to estimate the amount of variation explained in each dimension.</li>
                 <li>Finally, machine learning models will be developed, including regression and k-nearest neighbours, and their performance will be evaluated to determine which customers are most likely to stop using a certain credit card business.</li>
                 <li>Analysis includes line graph and bar graph with the frequency of the loss occurring and percentage of the change in loss using Power BI.</li>
             </ul>
             <h3>Covid-19 deaths by local authority area in England Using R and Power BI</h3>
             <ul>
                 <li>Investigated the important variables that are responsible for the total covid deaths in England during the period March 2020 to April 2021.</li>
-                <li>Methodology that has been used in the study mainly concentrates on correlation, factor analysis, and regression modelling.</li>
+                <li>Methodology that has been used in the study mainly concentrates on correlation, factor analysis and Regression modelling.</li>
                 <li>The report includes visualisation using Power BI.</li>
             </ul>
             <h3>AI4I 2020 Predictive Maintenance</h3>
