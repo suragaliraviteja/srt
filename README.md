@@ -11,7 +11,8 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to right, #ADD8E6, #ADD8e6); /* Gradient background */
+            background: linear-gradient(to right, ##FFFFFF
+, #FFFFFF); /* Gradient background */
             color: #333; /* Set default text color */
         }
         header {
