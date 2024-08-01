@@ -49,15 +49,14 @@
             margin-bottom: 0.5em;
         }
         footer {
-            background: #333;
-            color: white;
-            text-align: center;
+            color: black;
+            text-align: left;
             padding: 1em 0;
             position: fixed;
             width: 100%;
             bottom: 0;
-            left: 50%;
-            transform: translateX(-50%);
+            background: none;
+            padding-left: 20px;
         }
         .contact-btn {
             display: inline-block;
