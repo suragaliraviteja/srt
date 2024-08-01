@@ -38,6 +38,11 @@
             color: white;
             text-decoration: none;
         }
+
+        .container h2 {
+    text-align: center; /* Center the text */
+    margin-bottom: 1em; /* Space below the heading */
+}
         .container {
             width: 80%;
             margin: 0 auto;
