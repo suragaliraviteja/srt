@@ -38,6 +38,7 @@
             width: 80%;
             margin: 0 auto;
             overflow: hidden;
+            padding-bottom: 100px; /* To make space for the fixed footer */
         }
         section {
             padding: 2em 0;
@@ -55,6 +56,8 @@
             position: fixed;
             width: 100%;
             bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
         }
         .contact-btn {
             display: inline-block;
