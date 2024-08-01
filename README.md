@@ -102,7 +102,7 @@
     <div class="container">
         <section id="profile">
             <h2>Profile</h2>
-            <p>Passionate Power BI developer and Data Analyst. Highly motivated and growth-oriented professional with a strong passion for continuous learning. Hands-on experience in Power BI, specializing in developing robust data models and proficiently managing ETL processes. Skilled in translating complex data into actionable insights to drive informed decision-making. Completed a master degree in Data Science where I gained hands-on experience through academic projects.</p>
+            <p>Passionate Power BI developer and Data Analyst. Highly motivated and growth oriented professional with a strong passion for continuous learning. Hands on experience in Power BI, specializing in developing robust data models and proficiently managing ETL processes. Skilled in translating complex data into actionable insights to drive informed decision-making. Completed a master degree in Data Science where I gained hands-on experience through academic projects.</p>
         </section>
         <section id="experience">
             <h2>Professional Experience</h2>
