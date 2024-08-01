@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Raviteja Suragali - Power BI Developer / Data Analyst</title>
+    <title>RAVITEJA SURAGALI - Power BI Developer / Data Analyst</title>
     <style>
         body {
             font-family: Arial, sans-serif;
